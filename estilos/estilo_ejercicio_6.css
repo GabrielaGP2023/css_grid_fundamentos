@@ -1,0 +1,41 @@
+body{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+.contenedor
+{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(6, 2fr) 1fr;
+    background-color: black;
+    row-gap: 5%;
+    column-gap: 5%;
+    padding: 5%;
+    height: 60vh;
+    border-radius: 10px;
+    width: 30%;
+}
+.elemento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: gray;
+}
+.visor{
+    grid-column: 1 / span 4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:rgb(43, 41, 41);
+    border-radius: 4px;
+    padding: 3%;
+    color: green;
+}
+.igual-cero{
+    grid-column: 1 / span 2;
+}
+.cero{
+    background-color: orange;
+}

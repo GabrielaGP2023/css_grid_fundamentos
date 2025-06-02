@@ -1,0 +1,23 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    background-color: gray;
+    border-radius: 4px;
+    /* row-gap: 2%; */
+    column-gap: 2%;
+    
+}
+.elemento{
+    background-color: azure;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elemento-grande{
+    background-color: orange;
+    border: 2px solid blue;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 2;
+}

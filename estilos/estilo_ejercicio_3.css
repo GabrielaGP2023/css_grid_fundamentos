@@ -1,0 +1,32 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100px auto 60px;
+    gap: 10px;
+    height: 100vh;
+}
+header{
+    background-color: blue;
+    grid-column: 1 / span 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: azure;
+    padding: 10px;
+}
+footer{
+    grid-column: 1 / span 2;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

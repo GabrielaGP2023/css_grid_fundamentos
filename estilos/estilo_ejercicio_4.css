@@ -1,0 +1,21 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+.contenedor img{
+    width: 100%;
+    /* grid-row: 1 / 2; */
+}
+.contenedor h2{
+    /* grid-row: 2 / 3; */
+    margin: 10px;
+    text-align: center;
+}
+.contenedor button{
+    /* grid-row: 3 / 4; */
+    margin: 3%;
+    width: 94%;
+}
