@@ -1,0 +1,28 @@
+.contenedor {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 45%;
+    height: 60vh;
+    background-color: gray;
+    column-gap: 3%;
+    row-gap: 3%;
+    grid-auto-rows: 1fr;
+    grid-auto-flow: column;
+}
+
+.elemento {
+    background-color: antiquewhite;
+}
+
+.contenedor-ancho-columna {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    width: 45%;
+    /* height: 60vh; */
+    background-color: gray;
+    column-gap: 3%;
+    row-gap: 3%;
+    grid-auto-rows: 300px;
+}

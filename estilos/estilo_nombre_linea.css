@@ -1,0 +1,56 @@
+.contenedor
+{
+    display: grid;
+    grid-template-columns: 
+    [linea-c-1] 1fr 
+    [linea-c-2] 1fr 
+    [linea-c-3] 1fr 
+    [linea-c-4];
+    column-gap: 3%;
+    background-color: gray;
+    grid-template-rows: [linea-r-1] 1fr 
+                        [linea-r-2] 1fr
+                        [linea-r-3];
+    row-gap: 3%;  
+    width: 50%;  
+    height: 50vh;                
+}
+.item
+{
+  background-color: aqua;
+}
+.unir-renglones{
+    grid-row: linea-r-1 / linea-r-3;
+}
+.unir-columnas{
+    grid-column: linea-c-2 / linea-c-4 ;
+}
+
+.contenedor-ej2
+{
+    display: grid;
+    grid-template-columns: 
+    [linea-c-1] 1fr 
+    [linea-c-2] 1fr 
+    [linea-c-3] 1fr 
+    [linea-c-4];
+    column-gap: 5%;
+    background-color: gray;
+    grid-template-rows: [linea-r-1] 1fr 
+                        [linea-r-2] 1fr
+                        [linea-r-3] 1fr
+                        [linea-r-4];
+    row-gap: 5%;  
+    width: 60%;  
+    height: 80vh;                
+}
+.unir-columnas-ej2{
+    grid-column: linea-c-1 / linea-c-3;
+    background-color: yellow;
+}
+.unir-renglones-ej2{
+    grid-row: linea-r-1 / linea-r-4;
+    grid-column: linea-c-3 / liena-c-4; 
+    background-color: green;
+
+}
