@@ -1,0 +1,19 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3,300px);
+    background-color: gray;
+    column-gap: 1%;
+    row-gap: 1%;
+    justify-items: center;
+    align-items: center;
+}
+.elemento{
+    background-color: aquamarine;
+    border-radius: 4px;
+}
+.elemento:nth-child(5){
+    justify-self: start;
+    align-self: start;
+    order:1;
+}

@@ -1,0 +1,42 @@
+.contenedor{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(1,55px);
+grid-auto-rows: 100px;
+column-gap: 1%;
+row-gap: 1%;
+width: 80%;
+height: 80vh;
+margin: auto;
+grid-auto-flow: row dense;
+}
+.elemento{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+.dia{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color:white;
+    border-radius: 4px;
+    
+}
+h1{
+    text-align: center;
+    color: gray;
+    font-size: xx-large;
+}
+/* .elemento:nth-child(20){
+    grid-column: span 3;
+    background-color: red;
+}
+.elemento:nth-of-type(34){
+    grid-row: span 4;
+    background-color: green;
+} */
