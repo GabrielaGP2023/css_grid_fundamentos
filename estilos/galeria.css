@@ -1,0 +1,22 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  gap: 10px;
+}
+
+/* Todas las fotos: ocupan una celda por defecto */
+.foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.central {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.3); /* Aumenta tamaño visual */
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}

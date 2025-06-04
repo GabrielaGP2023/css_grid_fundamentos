@@ -5,8 +5,10 @@
     background-color: gray;
     column-gap: 1%;
     row-gap: 1%;
-    justify-items: center;
-    align-items: center;
+    /* justify-items: stretch;
+    align-items: strech; */
+    justify-content: space-evenly;
+    align-content: space-evenly;
 }
 .elemento{
     background-color: aquamarine;
@@ -15,5 +17,4 @@
 .elemento:nth-child(5){
     justify-self: start;
     align-self: start;
-    order:1;
 }

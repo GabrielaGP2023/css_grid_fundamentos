@@ -40,3 +40,9 @@ h1{
     grid-row: span 4;
     background-color: green;
 } */
+ /* .elemento:nth-child(15){
+    order: 5;
+ } */
+ .elemento:nth-child(34){
+    color: red;
+ }
